@@ -1,4 +1,3 @@
-# rb3dx_assets/.github/workflows/notify-main.yml
 name: Notify rb3dx repo
 
 on:
@@ -9,20 +8,19 @@ jobs:
   dispatch:
     runs-on: ubuntu-latest
     steps:
-      - name: Get current SHA of .assets_updated
-        id: get_sha
+      - name: Checkout main repo
+        uses: actions/checkout@v4
+        with:
+          repository: LinosM/rock-band-3-deluxe
+          token: ${{ secrets.RB3DX_ASSETS_PAT }}
+          ref: char_pull
+          submodules: true
+
+      - name: Update submodule pointer
         run: |
-          SHA=$(curl -s \
-            -H "Authorization: Bearer ${{ secrets.RB3DX_ASSETS_PAT }}" \
-            -H "Accept: application/vnd.github.v3+json" \
-            "https://api.github.com/repos/LinosM/rock-band-3-deluxe/contents/.assets_updated?ref=char_pull" \
-            | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('sha',''))")
-          echo "sha=$SHA" >> $GITHUB_OUTPUT
-      
-      - name: Trigger downstream build via empty commit
-        run: |
-          curl -X PUT \
-            -H "Authorization: Bearer ${{ secrets.RB3DX_ASSETS_PAT }}" \
-            -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/LinosM/rock-band-3-deluxe/contents/.assets_updated \
-            -d "{\"message\":\"chore: rb3dx_assets - ${{ github.event.head_commit.message }}\",\"content\":\"$(date +%s | base64 -w0)\",\"branch\":\"char_pull\",\"sha\":\"${{ steps.get_sha.outputs.sha }}\"}"
+          git submodule update --remote rb3dx_assets
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add rb3dx_assets
+          git commit -m "rb3dx_assets: ${{ github.event.head_commit.message }}"
+          git push
