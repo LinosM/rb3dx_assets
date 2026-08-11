@@ -147,4 +147,7 @@
 (prefab_p4protag "[P4] Yu Narukami")
 (prefab_p5joker "[P5] Joker")
 (prefab_pkmn_grovyle "[PKMN] Grovyle")
+(prefab_billiejoeidiot "[GDRB] Idiot Billie Joe")
+(prefab_mikedirntidiot "[GDRB] Idiot Mike Dirnt")
+(prefab_trecoolidiot "[GDRB] Idiot Tré Cool")
 (prefab_pkmn_zoroark "[PKMN] Zoroark")
