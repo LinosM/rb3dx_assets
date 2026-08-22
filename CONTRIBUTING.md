@@ -12,10 +12,10 @@ Here are dos and don'ts:
 	* Although updated copies of Deluxe have a fix for this, not everyone does!
 * Do test your characters on Xbox 360 (or Xenia) and PS3 (or RPCS3) before submitting.
 * Do add your characters to the [[locale file]](dx/locale/dx_locale_updates_chars.dta).
-	* It's suggested to copy the previous line because you need to keep the invisible "zero width joiner" character to not break sorting.
 	* There's an approx. limit of around 23 characters. If you go over, it will get cut off.
 * Add an image for your character so people can easily see who your character is when scrolling the list.
 	* If you upload without an image, a maintainer will probably add it for you. Feel free to change it if you don't like it.
+	* It's recommended to use Blender so you can pose your characters. [[Here's a template]](https://drive.google.com/file/d/1XfmRamPMQ-OyWE1ttEtZr_lLBBcXIqI9/view?usp=sharing) for that.
 	* To use in-game images, use [[Nautilus]](https://github.com/trojannemo/Nautilus) to extract the image via Save File Image Editor.
 	* You can use external images if you want.
 	* The game's thumbnails are `256`x`512`.
