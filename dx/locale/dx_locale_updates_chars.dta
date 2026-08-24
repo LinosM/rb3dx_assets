@@ -226,6 +226,7 @@
 (prefab_tadc_orbsman "[TADC] Orbsman")
 (prefab_tadc_ragatha "[TADC] Ragatha")
 (prefab_tadc_scratch "[TADC] Scratch")
+(prefab_tadc_gummigoo "[TADC] Gummigoo")
 (prefab_fn_safetyfirststeve "[FN] Safety First Steve")
 (prefab_fn_andyfangerson "[FN] Andy Fangerson")
 (prefab_fn_wendell "[FN] Wendell")
