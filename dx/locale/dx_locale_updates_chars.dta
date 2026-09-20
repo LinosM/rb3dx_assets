@@ -263,3 +263,8 @@
 (prefab_palworld_leafan "[Palworld] Leafan")
 (prefab_palworld_nyafia "[Palworld] Nyafia")
 (prefab_palworld_sekhmet "[Palworld] Sekhmet")
+(prefab_fnaf_freddy "[FNAF] Freddy Fazbear")
+(prefab_fnaf_gfreddy "[FNAF] Golden Freddy")
+(prefab_fnaf_bonnie "[FNAF] Bonnie")
+(prefab_fnaf_chica "[FNAF] Chica")
+(prefab_fnaf_foxy "[FNAF] Foxy")
