@@ -269,3 +269,8 @@
 (prefab_fnaf_chica "[FNAF] Chica")
 (prefab_fnaf_foxy "[FNAF] Foxy")
 (prefab_kp3_mastertigress "[Kung Fu Panda] Tigress")
+(prefab_franklin "[GTA V] Franklin Clinton")
+(prefab_michael "[GTA V] Michael de Santa")
+(prefab_trevor "[GTA V] Trevor Philips")
+(prefab_ironmouse "[Ironmouse] Ironmouse")
+(prefab_sleepymouse "[Ironmouse] Decora Mouse")
