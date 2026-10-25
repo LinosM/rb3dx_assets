@@ -204,6 +204,7 @@
 (prefab_tadc_scratch "[TADC] Scratch")
 
 ; Rulas
+(prefab_fn_beetlejuice "[Beetlejuice] Beetlejuice")
 (prefab_fn_gm08 "[Daft Punk] GM08")
 (prefab_fn_tb3 "[Daft Punk] TB3")
 (prefab_fn_beerus "[DBS] Beerus")
