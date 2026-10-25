@@ -204,13 +204,13 @@
 (prefab_tadc_scratch "[TADC] Scratch")
 
 ; Rulas
-(prefab_fn_beetlejuice "[Beetlejuice] Beetlejuice")
 (prefab_fn_gm08 "[Daft Punk] GM08")
 (prefab_fn_tb3 "[Daft Punk] TB3")
 (prefab_fn_beerus "[DBS] Beerus")
 (prefab_dbd_springtrap "[FNAF] Springtrap")
 (prefab_fn_andyfangerson "[FN] Andy Fangerson")
 (prefab_fn_axo "[FN] Axo")
+(prefab_fn_beetlejuice "[FN] Beetlejuice")
 (prefab_fn_dire "[FN] Dire")
 (prefab_fn_elchapulincolorado "[FN] Chapulín Colorado")
 (prefab_fn_fabiosparklemane "[FN] Fabio Sparklemane")
