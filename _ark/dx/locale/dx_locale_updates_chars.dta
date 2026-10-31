@@ -130,6 +130,7 @@
 (prefab_sgtpepperspaul "[TBRB] Sgt. Paul")
 (prefab_sgtpeppersringo "[TBRB] Sgt. Ringo")
 (prefab_kiryu "[Yakuza] Kiryu Kazuma")
+(prefab_fn_arttheclown "[Terrifier] Art")
 
 ; Headassbtw
 (prefab_mw2009_ghost "[MW2] Ghost")
