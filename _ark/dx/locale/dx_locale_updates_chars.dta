@@ -192,6 +192,7 @@
 (prefab_pkmn_toxtricity "[PKMN] Toxtricity")
 (prefab_pkmn_zoroark "[PKMN] Zoroark")
 (prefab_luiz "[RBLX] Luiz")
+(prefab_portal_chell "[Portal] Chell")
 
 ; r0astbeast
 (prefab_makotoyuki "[P3] Makoto Yuki")
