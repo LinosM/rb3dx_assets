@@ -185,6 +185,7 @@
 (prefab_tadc_zooble "[TADC] Zooble")
 
 ; Luizomori
+(prefab_l4d2_hunter "[L4D2] Hunter")
 (prefab_pkmn_zekrom "[PKMN] Zekrom")
 (prefab_aro_rouon "[Furloid] Aro Rouon")
 (prefab_jjba_jotaro "[JJBA] Jotaro")
