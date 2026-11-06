@@ -249,6 +249,8 @@
 (prefab_tadc_gummigoo "[TADC] Gummigoo")
 
 ; SpiritKurumi
+(prefab_ow_mercy "[Overwatch] Mercy")
+(prefab_ow_dva "[Overwatch] D.Va")
 (prefab_fn_guts "[Berserk] Guts")
 (prefab_ani_ichi "[Bleach] Ichigo")
 (prefab_fn_goku "[DBS] Goku")
