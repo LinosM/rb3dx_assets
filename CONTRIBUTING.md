@@ -3,7 +3,7 @@
 We have a bit of documentation on Google Docs. Keep in mind that things are evolving rapidly.
 * [[Porting basics]](https://docs.google.com/document/d/16hRGfKVZlf0QR6v0r4YlS0LUob0jrQWG7t24oGc2jSc/edit?usp=sharing) - Setting up required software, weight transferring, and prefab creation.
 * [[Rigging physics]](https://docs.google.com/document/d/1yyMzfm5VM13iQwq6ZiZR2_jIbWkCW1JVwiTnyjYKz1E) - Rigging physics for hair, tails, and body accessories.
-* [[Texture work]](https://gamebanana.com/linkfilter?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F18GR9iqTFdVj28rMl1XkU-VqxaMVPuqQHd4ti61T9LRc&follow=true) - Making the most out of your textures, replicating materials, and optimizations.
+* [[Texture work]](https://docs.google.com/document/d/18GR9iqTFdVj28rMl1XkU-VqxaMVPuqQHd4ti61T9LRc) - Making the most out of your textures, replicating materials, and optimizations.
 
 # Contributing Guidelines
 Anyone is free to add models, but in order to add your character to this repo, please make sure that it meets the following requirements:
